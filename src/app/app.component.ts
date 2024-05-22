@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  constructor(){}
+
+  onSubmit(){
+    console.log('El formulario fue enviado')
+  }
 }
